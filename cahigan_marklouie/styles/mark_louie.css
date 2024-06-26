@@ -25,11 +25,20 @@
 	border-style: solid;
 }
 
-.works-container > ol,
-.interest-hobbies > ul {
+.works-container > ol {
 	display: flex;
 	flex-direction: column;
 	gap: 15px;
+}
+
+.interest-hobbies {
+	display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 80%; 
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
 }
 
 .testimonial-container {
@@ -184,4 +193,30 @@ h2 {
 
 .my-thoughts > p {
 	padding-bottom: 10px;
+}
+
+@media (max-width: 1355px) {
+	.title-container > h1 {
+		padding-left: 30px;
+	}
+}
+
+@media (max-width: 625px) {
+	.title-container > h1 {
+		font-size: 2rem;
+		padding-left: 20px;
+	}
+
+	.title-container > img {
+		width: 250px;
+		height: 450px;
+	}
+}
+
+@media (max-width: 460px) {
+	.title-container > h1 {
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-right: 10px;
+	}
 }
