@@ -191,6 +191,11 @@ h2 {
 	width: 500px;
 }
 
+footer {
+	display: flex;
+	justify-content: center;
+}
+
 @media (max-width: 520px) {
 	.c-input {
 		width: 100%;
