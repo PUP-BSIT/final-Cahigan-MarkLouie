@@ -197,14 +197,6 @@ h2 {
 	}
 }
 
-.my-thoughts {
-	padding: 20px;
-}
-
-.my-thoughts > p {
-	padding-bottom: 10px;
-}
-
 @media (max-width: 1355px) {
 	.title-container > h1 {
 		padding-left: 30px;
