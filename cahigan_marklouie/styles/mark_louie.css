@@ -41,6 +41,16 @@
     border: 1px solid #ccc;
 }
 
+.five-years {
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+.five-years > p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 .testimonial-container {
 	display: flex;
 	flex-direction: column;
