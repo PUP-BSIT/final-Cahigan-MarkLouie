@@ -13,6 +13,11 @@
 	align-items: center;
 }
 
+.title-container > h1 {
+	width: 800px;
+	height: 500px;
+}
+
 .works-container {
 	border: 5px;
 	border-style: solid;
