@@ -4,9 +4,6 @@
 }
 
 .title-container {
-	background-image: url("../images/grass.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
 	display: flex;
 	justify-content: center;
 }
